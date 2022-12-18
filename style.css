@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-img {
+    background-image: url(img/photo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    margin-top: -2px;
+}
+
+.aurora {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    position: absolute;
+    width: 125px;
+    height: 32px;
+    margin-left: 120px;
+    margin-top: 35px;
+    line-height: 32.47px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.nav {
+    position: absolute;
+    display: flex;
+    color: white;
+    gap: 20px;
+    padding-left: 695px;
+    margin-top: 43px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 21.09px;
+    height: 21px;
+}
+
+.subscribe {
+    display: flex;
+    gap: 19px;
+    color: white;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1260px;
+    margin-top: 45px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.center p {
+    width: 996px;
+    height: 260px;
+    padding-top: 368px;
+    margin-left: 222px;
+    font-weight: 400;
+    font-size: 288px;
+    line-height: 260px;
+    color: white;
+}
+
+.learn p {
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 23px;
+    gap: 10px;
+    position: absolute;
+    width: 175px;
+    height: 41px;
+    left: 690px;
+    top: 827px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.desc p {
+    position: absolute;
+    width: 387px;
+    height: 57px;
+    top: 917px;
+    left: 580px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    text-align: center;
+}
